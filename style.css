@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: "kalam";
+    font-size: 20px;
+}
+
+.header {
+    grid-area: hd;
+    grid-column:  1/-1;
+    grid-row: 1/1;
+
+
+    color: white;
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.aside {
+    grid-area: as;
+    grid-column:  4/4;
+    grid-row: 2/4;
+
+
+    color: white;
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.video {
+    grid-area: vd;
+    grid-column:  1/4;
+    grid-row: 2/4;
+
+
+
+    color: white;
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.footer {
+    grid-area: ft;
+    grid-column:  1/-1;
+    grid-row:  4/4;
+
+
+    color: white;
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+
+
