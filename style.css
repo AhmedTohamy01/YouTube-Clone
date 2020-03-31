@@ -11,34 +11,53 @@ html, body {
     grid-row: 1/1;
 
 
-    border: solid steelblue;
-    border-radius: 10px;
+    /* border: solid steelblue; */
     padding: 10px;
 
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 /* .header > * {
     border: solid red;
 } */
 
-.header .searchbar {
+.searchbar {
     flex-basis: 40%;
     height: 26px;
 } 
 
-.header .searchbutton {
+.searchbutton {
     width: 65px;
     height: 32px;
 } 
 
 .signinbutton {
-    width: 80px;
-    height: 32px;
-    float: right;
+    width: 105px;
+    height: 40px;
+    margin-left: 2%;
+
+    border: solid 1px blue;
+    border-radius: 2px;
+    background-color: white;
 } 
+
+
+.toolsicon {
+    margin-left: auto;
+
+}
+
+
+.mainlogo {
+    margin-right: auto;
+
+}
+
+.listicon {
+    margin-right: 1%;
+
+}
 
 
 .aside {
