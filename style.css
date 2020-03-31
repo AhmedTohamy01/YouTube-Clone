@@ -11,11 +11,35 @@ html, body {
     grid-row: 1/1;
 
 
-    color: white;
-    background-color: steelblue;
+    border: solid steelblue;
     border-radius: 10px;
     padding: 10px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
+
+/* .header > * {
+    border: solid red;
+} */
+
+.header .searchbar {
+    flex-basis: 40%;
+    height: 26px;
+} 
+
+.header .searchbutton {
+    width: 65px;
+    height: 32px;
+} 
+
+.signinbutton {
+    width: 80px;
+    height: 32px;
+    float: right;
+} 
+
 
 .aside {
     grid-area: as;
