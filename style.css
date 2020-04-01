@@ -3,7 +3,7 @@ html, body {
     font-family: "kalam";
     font-size: 20px;
     height: 98%;
-    
+
 
 }
 
@@ -25,12 +25,12 @@ html, body {
 .searchbar {
     flex-basis: 40%;
     height: 26px;
-} 
+}
 
 .searchbutton {
     width: 65px;
     height: 32px;
-} 
+}
 
 .signinbutton {
     width: 105px;
@@ -40,7 +40,7 @@ html, body {
     border: solid 1px blue;
     border-radius: 2px;
     background-color: white;
-} 
+}
 
 
 .toolsicon {
@@ -66,19 +66,18 @@ html, body {
     grid-column:  3/3;
     grid-row: 2/5;
     margin-right: 10%;
-    padding: 0px;    
+    padding: 0px;
 }
 
 .asidecontent {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;  
 }
 
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 .videos {
     text-align: left;
@@ -101,7 +100,7 @@ html, body {
 .videoinfoaside{
     padding: 0px;
     color:#606060;
-    font-size: 13px;    
+    font-size: 13px;
 }
 
 .videodetailaside{
@@ -123,13 +122,13 @@ html, body {
     grid-area: vd;
     grid-column:  1/3;
     grid-row: 2/2;
-    max-height: 450px;
+    min-height: 450px;
 
 
 
-    color: white;
+    /* color: white;
     background-color: steelblue;
-    border-radius: 10px;
+    border-radius: 10px; */
     padding: 10px;
     margin-left: 3%;
 
@@ -140,26 +139,48 @@ html, body {
 }
 
 
-.iframe {
-    flex-basis: 100%;
-    height: 100%;
-}
-
-
 
 /* Controls Section */
-/* .controls {
+.controls {
     grid-area: vd;
     grid-column:  1/3;
     grid-row: 3/3;
 
 
 
-    color: white;
-    background-color: steelblue;
+    /* color: white;
+    background-color: steelblue; */
     border-radius: 10px;
     padding: 10px;
-} */
+
+}
+
+
+
+
+.controlswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    padding: 20px;
+    }
+
+
+
+.videotitle {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+
+}
+
+.views {
+    color:#606060;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    /* display: inline-block; */
+    border: 1px solid rgb(55, 25, 192);
+}
 
 /* Info Section */
 /* .info {
@@ -180,7 +201,7 @@ html, body {
 .footer {
     grid-area: ft;
     grid-column:  1/-1;
-    
+
 
     color: white;
     background-color: yellowgreen;
@@ -193,7 +214,7 @@ html, body {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 
@@ -244,8 +265,8 @@ html, body {
         grid-area: as;
         grid-column:  1/-1;
         grid-row: 5/5;
-    
-    
+
+
         color: white;
         background-color: steelblue;
         border-radius: 10px;
