@@ -8,61 +8,89 @@ html, body {
 
 
 }
-
-/* * {
-    border: 1px solid red;
-} */
-
-
 /* Header Section */
 .header {
     grid-area: hd;
     grid-column:  1/-1;
     grid-row: 1/1;
-
-
     padding: 10px;
-
     display: flex;
     align-items: center;
 }
 
-
 .searchbar {
-    flex-basis: 40%;
+    width: 555px;
     height: 26px;
-}
-
-.searchbutton {
-    width: 65px;
-    height: 32px;
-}
-
-.signinbutton {
-    width: 105px;
-    height: 40px;
-    margin-left: 2%;
-
-    border: solid 1px blue;
-    border-radius: 2px;
-    background-color: white;
-}
-
-
-.toolsicon {
+    font-size: 20px;
+    font-weight: 300;
     margin-left: auto;
 
 }
 
+.searchbutton {
+    width: 85px;
+    height: 32px;
+    margin-right: auto;
+}
+
+.signinbutton {
+    width: 120px;
+    height: 40px;
+    margin-left: 2%;
+    border: solid 1px rgb(11,84,201) ;
+    border-radius: 2px;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;  
+}
+
+.profileicon{
+    margin: -5px 5px 0px 0px;
+}
+
+.signinText{
+    color: rgb(11,84,201);
+    width: 70px;
+    margin: -25px 0px 0px 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.toolsicon {
+    margin-left: 40px;
+    width: 7px;
+    color: rgb(128,128,128);
+}
+
+.toolsiconMenu{
+    margin-left: 33px;
+    width: 20px;
+    color: rgb(128,128,128);
+
+}
+
+.toolsiconSearch{
+    margin-left: auto;
+    width: 15px;
+    margin-top: 5px;
+}
+
+.toolsiconVideo{
+    margin-left: auto;
+    width: 25px;
+    color: rgb(128,128,128);
+}
 
 .mainlogo {
     margin-right: auto;
-
-
 }
 
 .listicon {
     margin-right: 1%;
+    width: 20px;
+    color:red;
 
 }
 
