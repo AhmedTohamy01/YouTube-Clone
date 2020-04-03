@@ -1,10 +1,10 @@
 # Project Name
 
-> Youtube Clone.
+Youtube Video Page Clone.
 
 ![screenshot](./website-screenshot.jpg)
 
-Additional description about the project and its features.
+The website is a clone of YouTube Video Page.
 
 ## Built With
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ahmedtohamy01.github.io/)
 
 
 ## Authors
@@ -38,7 +38,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone who helped us to learn the technology used in building this website.
 
